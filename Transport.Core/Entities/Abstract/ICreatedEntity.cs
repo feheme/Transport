@@ -8,9 +8,9 @@ namespace Transport.Core.Entities.Abstract
 {
     public interface ICreatedEntity
     {
-        public int? CreatedBy { get; set; }
+        
 
-        public DateTime CreatedDate { get; set; }
+        public DateTime? CreatedDate { get; set; }
 
     }
 }

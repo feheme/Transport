@@ -1,0 +1,38 @@
+﻿@model Transport.WebUI.Models.ReservationViewModel.AddReservationViewModel
+
+@{
+    Layout = null;
+}
+
+
+
+<h1>Rezervasyon Yap</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="ReservationType"></label>
+        <input asp-for="ReservationType" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ReservationDetails"></label>
+        <textarea asp-for="ReservationDetails" class="form-control" required></textarea>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ReservationDate"></label>
+        <input asp-for="ReservationDate" type="date" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="UserId"></label>
+        <input asp-for="UserId" type="number" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TeamId"></label>
+        <input asp-for="TeamId" type="number" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Rezervasyon Yap</button>
+</form>

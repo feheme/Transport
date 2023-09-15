@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport.WebAPI", "Transport.WebAPI\Transport.WebAPI.csproj", "{576FFEE8-4C08-4089-9FBB-6E66C20ADB87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transport.WebAPI", "Transport.WebAPI\Transport.WebAPI.csproj", "{576FFEE8-4C08-4089-9FBB-6E66C20ADB87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport.Core", "Transport.Core\Transport.Core.csproj", "{4811E805-A86A-46EA-B96A-230CDE7DED27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transport.Core", "Transport.Core\Transport.Core.csproj", "{4811E805-A86A-46EA-B96A-230CDE7DED27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport.Entities", "Transport.Entities\Transport.Entities.csproj", "{67CCE41B-92F1-4495-8BDA-E57D77C52A2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transport.Entities", "Transport.Entities\Transport.Entities.csproj", "{67CCE41B-92F1-4495-8BDA-E57D77C52A2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport.DataAccess", "Transport.DataAccess\Transport.DataAccess.csproj", "{18ACF741-2E0A-4367-BF03-C9F48E7B31CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transport.DataAccess", "Transport.DataAccess\Transport.DataAccess.csproj", "{18ACF741-2E0A-4367-BF03-C9F48E7B31CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport.Business", "Transport.Business\Transport.Business.csproj", "{92858A6D-1D90-4437-A233-A306DED37F89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transport.Business", "Transport.Business\Transport.Business.csproj", "{92858A6D-1D90-4437-A233-A306DED37F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport.WebUI", "Transport.WebUI\Transport.WebUI.csproj", "{A2402280-8DCE-4716-A00B-05739FD544CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{92858A6D-1D90-4437-A233-A306DED37F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92858A6D-1D90-4437-A233-A306DED37F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92858A6D-1D90-4437-A233-A306DED37F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2402280-8DCE-4716-A00B-05739FD544CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2402280-8DCE-4716-A00B-05739FD544CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2402280-8DCE-4716-A00B-05739FD544CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2402280-8DCE-4716-A00B-05739FD544CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

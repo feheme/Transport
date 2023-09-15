@@ -101,7 +101,7 @@ namespace Transport.Business.Concrete
 
 
             userOperationClaim.UpdatedDate = DateTime.Now;
-            userOperationClaim.UpdatedBy = 1;
+            
 
 
             var userOperationUpdate = await _userOperationClaimRepository.UpdateAsync(userOperationClaim);

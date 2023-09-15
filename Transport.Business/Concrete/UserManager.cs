@@ -106,7 +106,7 @@ namespace Transport.Business.Concrete
             user.PasswordHash = getUser.PasswordHash;
             user.PasswordSalt = getUser.PasswordSalt;
             user.UpdatedDate = DateTime.Now;
-            user.UpdatedBy = 1;
+            
 
 
             var userUpdate = await _userRepository.UpdateAsync(user);

@@ -1,0 +1,2 @@
+2023-09-15 22:39:44.324 [Error] {"ExceptionMessage":"Object reference not set to an instance of an object.","MethodName":"GetListAsync","User":"?","Parameters":[]}
+2023-09-15 22:58:54.154 [Error] {"ExceptionMessage":"Object reference not set to an instance of an object.","MethodName":"GetListAsync","User":"?","Parameters":[]}

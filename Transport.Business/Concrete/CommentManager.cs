@@ -97,7 +97,7 @@ namespace Transport.Business.Concrete
             var getComment = await _commentRepository.GetAsync(x => x.Id == commentUpdateDto.Id);
             getComment = _mapper.Map<Comment>(commentUpdateDto);
             getComment.UpdatedDate = DateTime.Now; 
-            getComment.UpdatedBy = 1;
+            
 
             var commentUpdate = await _commentRepository.UpdateAsync(getComment);
             var resultUpdateDto = _mapper.Map<CommentUpdateDto>(commentUpdate);

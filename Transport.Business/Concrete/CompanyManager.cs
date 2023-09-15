@@ -87,7 +87,7 @@ namespace Transport.Business.Concrete
             var getCompany = await _companyRepository.GetAsync(x => x.Id == companyUpdateDto.Id);
             getCompany = _mapper.Map<Company>(companyUpdateDto);
             getCompany.UpdatedDate = DateTime.Now;
-            getCompany.UpdatedBy = 1;
+            
 
             var companyUpdate = await _companyRepository.UpdateAsync(getCompany);
             var resultUpdateDto = _mapper.Map<CompanyUpdateDto>(companyUpdate);

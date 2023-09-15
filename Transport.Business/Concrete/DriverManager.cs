@@ -92,7 +92,7 @@ namespace Transport.Business.Concrete
 
 
             getDriver.UpdatedDate = DateTime.Now;
-            getDriver.UpdatedBy = 1;
+            
 
 
             var driverUpdate = await _driverRepository.UpdateAsync(getDriver);

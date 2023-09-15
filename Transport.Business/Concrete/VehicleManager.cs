@@ -92,7 +92,7 @@ namespace Transport.Business.Concrete
 
 
             getVehicle.UpdatedDate = DateTime.Now;
-            getVehicle.UpdatedBy = 1;
+           
 
 
             var vehicleUpdate = await _vehicleRepository.UpdateAsync(getVehicle);

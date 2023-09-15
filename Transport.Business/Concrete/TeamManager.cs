@@ -87,7 +87,7 @@ namespace Transport.Business.Concrete
 
 
             getTeam.UpdatedDate = DateTime.Now;
-            getTeam.UpdatedBy = 1;
+            
 
 
             var teamUpdate = await _teamRepository.UpdateAsync(getTeam);

@@ -8,8 +8,8 @@ namespace Transport.Core.Entities.Abstract
 {
     public interface IUpdatedEntity
     {
-        public int? UpdatedBy { get; set; }
+        
 
-        public DateTime UpdatedDate { get; set; }
+        public DateTime? UpdatedDate { get; set; }
     }
 }

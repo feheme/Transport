@@ -1,0 +1,1 @@
+2023-09-15 22:38:57.156 [Error] {"ExceptionMessage":"Object reference not set to an instance of an object.","MethodName":"AddAsync","User":"?","Parameters":[{"Name":"entity","Value":{"ReservationType":"string","ReservationDetails":"string","UserId":2,"TeamId":2},"Type":"ReservationAddDto"}]}

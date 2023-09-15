@@ -99,7 +99,7 @@ namespace Transport.Business.Concrete
             var getMessage = await _messageRepository.GetAsync(x => x.Id == messageUpdateDto.Id);
             getMessage = _mapper.Map<Message>(messageUpdateDto);
             getMessage.UpdatedDate = DateTime.Now;
-            getMessage.UpdatedBy = 1;
+            
 
             var messageUpdate = await _messageRepository.UpdateAsync(getMessage);
             var resultUpdateDto = _mapper.Map<MessageUpdateDto>(messageUpdate);

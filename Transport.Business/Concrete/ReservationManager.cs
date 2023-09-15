@@ -22,6 +22,15 @@ namespace Transport.Business.Concrete
         ITeamRepository _teamRepository;
         IReservationRepository _reservationRepository;
         IMapper _mapper;
+
+        public ReservationManager(IUserRepository userRepository, ITeamRepository teamRepository, IReservationRepository reservationRepository, IMapper mapper)
+        {
+            _userRepository = userRepository;
+            _teamRepository = teamRepository;
+            _reservationRepository = reservationRepository;
+            _mapper = mapper;
+        }
+
         public async Task<IResult> AddAsync(ReservationAddDto entity)
         {
             var newReservation = _mapper.Map<Reservation>(entity);
@@ -87,7 +96,7 @@ namespace Transport.Business.Concrete
             var getReservation = await _reservationRepository.GetAsync(x => x.Id == reservationUpdateDto.Id);
             getReservation = _mapper.Map<Reservation>(reservationUpdateDto);
             getReservation.UpdatedDate = DateTime.Now;
-            getReservation.UpdatedBy = 1;
+
 
             var reservationUpdate = await _reservationRepository.UpdateAsync(getReservation);
             var resultUpdateDto = _mapper.Map<ReservationUpdateDto>(reservationUpdate);

@@ -94,7 +94,7 @@ namespace Transport.Business.Concrete
 
 
             getPerson.UpdatedDate = DateTime.Now;
-            getPerson.UpdatedBy = 1;
+            
 
 
             var personUpdate = await _personRepository.UpdateAsync(getPerson);
