@@ -1,0 +1,12 @@
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Core\obj\Debug\net7.0\Transport.Core.csproj.AssemblyReference.cache
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Core\obj\Debug\net7.0\Transport.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Core\obj\Debug\net7.0\Transport.Core.AssemblyInfoInputs.cache
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Core\obj\Debug\net7.0\Transport.Core.AssemblyInfo.cs
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Core\obj\Debug\net7.0\Transport.Core.csproj.CoreCompileInputs.cache
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Core\bin\Debug\net7.0\Transport.Core.deps.json
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Core\bin\Debug\net7.0\Transport.Core.dll
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Core\bin\Debug\net7.0\Transport.Core.pdb
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Core\obj\Debug\net7.0\Transport.Core.dll
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Core\obj\Debug\net7.0\refint\Transport.Core.dll
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Core\obj\Debug\net7.0\Transport.Core.pdb
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Core\obj\Debug\net7.0\ref\Transport.Core.dll

@@ -1,0 +1,1 @@
+2023-09-15 17:47:37.095 [Error] {"ExceptionMessage":"An error occurred while saving the entity changes. See the inner exception for details.","MethodName":"AddAsync","User":"?","Parameters":[{"Name":"entity","Value":{"TeamName":"string","TransportationTask":"string","CompanyId":2},"Type":"TeamAddDto"}]}

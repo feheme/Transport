@@ -1,0 +1,15 @@
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Entities\bin\Debug\net7.0\Transport.Entities.deps.json
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Entities\bin\Debug\net7.0\Transport.Entities.dll
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Entities\bin\Debug\net7.0\Transport.Entities.pdb
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Entities\obj\Debug\net7.0\Transport.Entities.csproj.AssemblyReference.cache
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Entities\obj\Debug\net7.0\Transport.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Entities\obj\Debug\net7.0\Transport.Entities.AssemblyInfoInputs.cache
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Entities\obj\Debug\net7.0\Transport.Entities.AssemblyInfo.cs
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Entities\obj\Debug\net7.0\Transport.Entities.csproj.CoreCompileInputs.cache
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Entities\obj\Debug\net7.0\Transport.Entities.dll
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Entities\obj\Debug\net7.0\refint\Transport.Entities.dll
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Entities\obj\Debug\net7.0\Transport.Entities.pdb
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Entities\obj\Debug\net7.0\ref\Transport.Entities.dll
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Entities\bin\Debug\net7.0\Transport.Core.dll
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Entities\bin\Debug\net7.0\Transport.Core.pdb
+C:\Users\fth-h\OneDrive\Masaüstü\Transport\Transport.Entities\obj\Debug\net7.0\Transport.Entities.csproj.CopyComplete
